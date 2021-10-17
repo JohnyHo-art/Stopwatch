@@ -63,8 +63,6 @@ class _TimerPageState extends State<TimerPage> {
     // equals to null then return false else return true
     final isRunning = timer == null ? false : timer!.isActive;
 
-    int test = 100;
-
     SizeConfig().init(context);
     double sizeV = SizeConfig.blockSizeV!;
     double sizeH = SizeConfig.blockSizeH!;

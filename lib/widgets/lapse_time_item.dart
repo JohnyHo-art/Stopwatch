@@ -34,7 +34,7 @@ class LapseTimeItem extends StatelessWidget {
               ),
             ),
             SizedBox(width: sizeH*10),
-            Text(
+            Text( 
               '$hour : $minute : $second',
               style: TextStyle(
                 fontSize: sizeV*3.5,
